@@ -24,11 +24,20 @@ button {
   font-size: 18px;
   transition: all 200ms;
   padding: 10px;
-  background: white;
-  border: 1px solid gray;
+  border: 3px inset gray;
   border-radius: 5px;
 }
-
+.fbButton {
+  background: #4267B2;
+  color: white;
+}
+.twtrButton {
+  /* background: #1C95E0; */
+  background-image: url('https://github.com/Chazensign/vanillajs-1-mini/blob/master/twitter.jpg');
+  background-size: cover;
+  width: 130px;
+  height: 50px;
+}
 main {
   padding: 50px;
   transition: all 200ms;
