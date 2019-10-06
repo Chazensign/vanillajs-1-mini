@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 
+p {
+  font-size: 28px;
+}
 .devmountain {
   background: #2aabe2;
   color: white;

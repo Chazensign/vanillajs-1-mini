@@ -26,18 +26,102 @@ button {
   padding: 10px;
   border: 3px inset gray;
   border-radius: 5px;
+  
 }
+button:focus {outline:0;}
 .fbButton {
-  background: #4267B2;
+  background-image: url('https://media.wired.com/photos/5954a23cce3e5e760d52d91a/master/w_1000,c_limit/facebook_2015_logo.jpg');
+  /* background: #4267B2; */
+  background-size: cover;
   color: white;
+  width: 150px;
+  height: 50px;
+  
+}
+.fbButton:hover {
+  opacity: .8;
+}
+button:active {
+  border-style: outset;
+}
+.dmButton {
+  /* image: url('https://s3.amazonaws.com/devmountain/www/img/DevLogo_Standard.png'); */
+  background-size: cover;
+  width:200px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0;
+  padding-top: 5px;
+}
+.dmButton:hover {
+  background-color: lightgray;
+}
+
+.dmButton img {
+  margin-right: 8px;
 }
 .twtrButton {
   /* background: #1C95E0; */
-  background-image: url('https://github.com/Chazensign/vanillajs-1-mini/blob/master/twitter.jpg');
+  background-image: url('http://www.eteknix.com/wp-content/uploads/2014/08/twitter-logo.png');
   background-size: cover;
   width: 130px;
   height: 50px;
 }
+.twtrButton:hover {
+  opacity: .8;
+}
+.defButton {
+  background: #999999;
+  background-image: radial-gradient(  #999999 20%, #474747, #262626);
+  height: 50px;
+  width: 130px;
+  font-family: Arial;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 15px;
+  text-decoration: none;
+}
+
+.defButton:hover {
+  opacity: .8;
+}
+.add, .minus, .reset {
+  font-size: 20px; 
+  font-weight: 600;
+  line-height: 15px; 
+  padding: 14px; 
+}
+.add, .minus {
+  color: rgb(255, 255, 255); 
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  font-family: Georgia, serif; 
+  border: 2px solid black; 
+  display: inline-block;
+}
+  .add {
+    background-image: linear-gradient(to right, #008200 0%, #00B000 50%, #008200 100%); 
+  }
+
+  .add:hover {
+    opacity: .8; 
+}
+  .add:active {
+    background: #007800; 
+  }
+  .minus {
+    background-image: linear-gradient(to right, #C71C1C 0%, #FF2424 50%, #C71C1C 100%); 
+  }
+    .minus:hover {
+      opacity: .8; 
+  }
+    .minus:active {
+      background: #A11717; 
+    }  
 main {
   padding: 50px;
   transition: all 200ms;
